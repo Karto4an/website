@@ -37,6 +37,14 @@ header{
   align-self: center;
 }
 
+.logo_text{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  margin-right: 60px;
+  font-size: 1.8em;
+  align-self: center;
+}
+
 a{
   text-decoration: none;
 }
