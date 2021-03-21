@@ -1,6 +1,7 @@
 nav{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 header{
@@ -14,16 +15,23 @@ header{
 .header_links{
   flex-grow: 0;
   margin-right: 25px;
+  align-self: center;
 }
 
 .header_cart{
   flex-grow: 0;
   margin-right: 25px;
+  align-self: center;
 }
 
 .header_search{
   flex-grow: 0;
   margin-right: 25px;
+  align-self: center;
+}
+
+.header_logo{
+  align-self: center;
 }
 
 a{
