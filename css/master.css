@@ -17,6 +17,8 @@ header{
   flex-grow: 0;
   margin-right: 25px;
   align-self: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header_cart{
