@@ -1,7 +1,8 @@
 nav{
-  display: flex;
+  display: grid;
   justify-content: center;
-  flex-wrap: wrap;
+  grid-template-columns: auto;
+  padding-top: 10px;
 }
 
 header{
@@ -14,37 +15,67 @@ header{
 }
 
 .header_links{
-  flex-grow: 0;
   margin-right: 25px;
   align-self: center;
   color: white;
   font-family: 'Montserrat', sans-serif;
+  grid-row: 1/2;
 }
 
 .header_cart{
-  flex-grow: 0;
   margin-right: 25px;
   align-self: center;
+  grid-row: 1/2;
 }
 
 .header_search{
-  flex-grow: 0;
   margin-right: 25px;
   align-self: center;
+  grid-row: 1/2;
 }
 
 .header_logo{
-  align-self: center;
+  grid-row: 1/2;
+  align-self: flex-end;
 }
 
-.logo_text{
+.header_logo_text{
   font-family: 'Raleway', sans-serif;
   color: white;
   margin-right: 60px;
   font-size: 1.8em;
-  align-self: center;
+  align-self: flex-end;
+  grid-column: 2/3;
 }
 
 a{
   text-decoration: none;
+}
+
+.header_home{
+  grid-column: 4/5;
+}
+.header_about{
+  grid-column: 5/6;
+}
+.header_portfolio{
+  grid-column: 6/7;
+}
+.header_features{
+  grid-column: 7/8;
+}
+.header_blog{
+  grid-column: 8/9;
+}
+.header_pricing{
+  grid-column: 9/10;
+}
+.header_contact{
+  grid-column: 10/11;
+}
+.header_cart{
+  grid-column: 11/12;
+}
+.header_search{
+  grid-column: 13/14;
 }
