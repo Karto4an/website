@@ -79,3 +79,22 @@ a{
 .header_search{
   grid-column: 13/14;
 }
+
+.title{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.title_1line{
+  grid-column: 2/3;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+}
+.title_2line{
+  grid-column: 2/3;
+  font-family: 'Raleway', sans-serif;
+  font-size: 52px;
+  font-variant: extra-bold;
+}
+.title_3line{
+  grid-column: 2/3;
+}
