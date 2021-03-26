@@ -27,7 +27,14 @@ header{
   align-self: center;
   grid-row: 1/2;
 }
-
+.cart-icon{
+  width: 18px;
+  height: 24px;
+}
+.search-icon{
+  width: 24px;
+  height: 24px;
+}
 .header_search{
   margin-right: 25px;
   align-self: center;
@@ -35,6 +42,8 @@ header{
 }
 
 .header_logo{
+  width: 64px;
+  height: 56px;
   grid-row: 1/2;
   align-self: flex-end;
 }
