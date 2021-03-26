@@ -83,18 +83,28 @@ a{
 .title{
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
+  align-content: center;
+  justify-items: center;
 }
 .title_1line{
   grid-column: 2/3;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway-Medium', sans-serif;
   font-size: 36px;
+  color: white;
+  align-self: center;
 }
 .title_2line{
   grid-column: 2/3;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway-ExtraBold', sans-serif;
   font-size: 52px;
-  font-variant: extra-bold;
+  color: white;
+  align-self: center;
+
 }
 .title_3line{
   grid-column: 2/3;
+  font-family: 'Montserrat-Light', sans-serif;
+  font-size: 16px;
+  color: white;
+  align-self: center;
 }
