@@ -12,7 +12,11 @@
   <body>
     <header>
       <nav>
-        <img class="header_logo" src="img/logo.png" alt="Logo">
+        <picture class="header_logo">
+          <source srcset="img/logo.webp" type="image/webp">
+          <source srcset="img/logo.png" type="image/png">
+          <img src="img/logo.png" alt="Logo">
+        </picture>
         <span class="header_logo_text">Waxom</span>
         <a class="header_links header_home" href="#">Home</a>
         <a class="header_links header_about" href="#">About Us</a>
@@ -22,10 +26,18 @@
         <a class="header_links header_pricing" href="#">Pricing</a>
         <a class="header_links header_contact" href="#">Contact</a>
         <a class="header_cart" href="#">
-          <img src="img/icon-cart.png" alt="Cart">
+          <picture >
+            <source srcset="img/icon-cart.webp" type="image/webp">
+            <source srcset="img/icon-cart.png" type="image/png">
+            <img src="img/icon-cart.png" alt="Cart">
+          </picture>
         </a>
         <a class="header_search" href="#">
-          <img src="img/icon-search.png" alt="Search">
+          <picture >
+            <source srcset="img/icon-search.webp" type="image/webp">
+            <source srcset="img/icon-search.png" type="image/png">
+            <img src="img/icon-search.png" alt="Search">
+          </picture>
         </a>
       </nav>
         <div class="title">
