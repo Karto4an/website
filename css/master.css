@@ -96,7 +96,7 @@ a{
   grid-template-columns: 1fr 2fr 1fr;
   align-content: center;
   justify-items: center;
-  padding-top: 30vh;
+  padding-top: 33vh;
 }
 .title_1line{
   grid-column: 2/3;
@@ -125,6 +125,23 @@ a{
   font-size: 16px;
   color: white;
   align-self: center;
+}
+.title_button{
+  grid-column: 2/3;
+  min-width: 170px;
+  min-height: 53px;
+  background-color: #998675;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 5px 5px 5px 5px;
+  font-family: raleway,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  color: white;
+}
+.title_button_container{
+  margin-top: 52px;
 }
 /* font-family: raleway,sans-serif;
   font-weight: 600;
