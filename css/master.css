@@ -6,8 +6,8 @@ nav{
 }
 
 header{
-  background-image: url('../img/background.png');
   background-image: url('../img/background.webp');
+  background-image: url('../img/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -50,7 +50,9 @@ header{
 }
 
 .header_logo_text{
-  font-family: 'Raleway', sans-serif;
+  font-family: raleway, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: white;
   margin-right: 60px;
   font-size: 1.8em;
@@ -99,14 +101,18 @@ a{
 }
 .title_1line{
   grid-column: 2/3;
-  font-family: 'Raleway-Medium', sans-serif;
+  font-family: raleway,sans-serif;
+  font-weight: 500;
+  font-style: normal;
   font-size: 36px;
   color: white;
   align-self: center;
 }
 .title_2line{
   grid-column: 2/3;
-  font-family: 'Raleway-ExtraBold', sans-serif;
+  font-family: raleway,sans-serif;
+  font-weight: 800;
+  font-style: normal;
   font-size: 52px;
   color: white;
   align-self: center;
@@ -114,8 +120,13 @@ a{
 }
 .title_3line{
   grid-column: 2/3;
-  font-family: 'Montserrat-Light', sans-serif;
+  font-family: montserrat,sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 16px;
   color: white;
   align-self: center;
 }
+/* font-family: raleway,sans-serif;
+  font-weight: 600;
+  font-style: normal; */
